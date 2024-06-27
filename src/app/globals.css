@@ -2,4 +2,141 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: poppins;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
 
+@font-face {
+  font-family: poppinsLight;
+  src: url("./assets/fonts/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: SF;
+  src: url("./assets/fonts/SF\ TransRobotics.ttf");
+}
+@font-face {
+  font-family: cooper;
+  src: url("./assets/fonts/CooperHewitt-Bold.otf");
+}
+@font-face {
+  font-family: Robot;
+  src: url("./assets/fonts/Robot\ Dreamer.ttf");
+}
+@font-face {
+  font-family: Cyborg;
+  src: url("./assets/fonts/Cyborg\ Punk.ttf");
+}
+body {
+  background: #001929;
+  color: #fff;
+  font-family: poppins;
+}
+.SF {
+  font-family: SF;
+}
+.cooper {
+  font-family: cooper;
+}
+.Robot {
+  font-family: Robot;
+}
+.Cyborg {
+  font-family: Cyborg;
+}
+.poppins-light {
+  font-family: poppinsLight;
+}
+.nav-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 25, 41, 0.18) 0%,
+    rgba(0, 240, 255, 0.18) 100%
+  );
+  backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+
+  border: 1px solid #00f0ff;
+  border-radius: 30px;
+  padding: 42px, 46px, 42px, 46px;
+}
+
+.hero {
+  background-image: url("../../public/img/hero-background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-bg-top {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0) -4%, #001929 99%);
+  height: 246px;
+}
+
+.hero-bg-buttom {
+  background: linear-gradient(179deg, rgba(0, 0, 0, 0) -4%, #001929 99%);
+  height: 246px;
+}
+
+.how-bg-top {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0) -19%, #001929 90%);
+  height: 246px;
+}
+
+.how-bg-buttom {
+  background: linear-gradient(179deg, rgba(0, 0, 0, 0) -34%, #001929 83%);
+  height: 246px;
+}
+.background-overlay {
+  background-image: url("../../public/img/about-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.BitcoinAI {
+  background: linear-gradient(270deg, #fff 30.99%, #00f0ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; /* Fallback color */
+}
+
+.how-to-buy {
+  background-image: url("../../public/img/how-to-buy.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ready-box {
+  background: #fffafa12;
+  border-radius: 0px 30px 0px 30px;
+  border: 1px solid #ffffff70;
+  backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+}
+
+.swap {
+  background-image: url("../../public/img/swap.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.token {
+  background-image: url("../../public/img/token.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.token-child-bg {
+  background: #d9d9d933;
+  backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+  border: 2px solid #00f0ff;
+  border-radius: 60px 0px 60px 0px;
+}
+
+.Road-Map {
+  background-image: url("../../public/img/RoadMap.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
