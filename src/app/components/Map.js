@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Map() {
-  return (
-    <div className=''>
-        
-     </div>
-  )
+  return <div className=""></div>;
 }
 
-export default Map
+export default Map;
