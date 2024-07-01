@@ -198,6 +198,7 @@ function Swap() {
           <div className="relative">
             <Image
               src={"/img/swap-men.png"}
+              alt="hero"
               width={10000}
               height={10000}
               className="w-[100%] h-[100%]"

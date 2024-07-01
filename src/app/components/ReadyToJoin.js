@@ -4,6 +4,7 @@ import React from "react";
 function ReadyToJoin() {
   return (
     <div>
+      
       <div className="text-center">
         <p className="text-[36px] font-medium">
           Ready to join the BitcoinAI revolution? It’s simpler than you <br />{" "}

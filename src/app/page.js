@@ -7,6 +7,7 @@ import ReadyToJoin from "./components/ReadyToJoin";
 import Swap from "./components/Swap";
 import Token from "./components/Token";
 import RoadMap from "./components/RoadMap";
+import Map from "./components/Map";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Swap />
       <Token />
       <RoadMap/>
+      <Map/>
     </div>
   );
 }
