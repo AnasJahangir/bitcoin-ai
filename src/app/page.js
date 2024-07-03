@@ -8,6 +8,9 @@ import Swap from "./components/Swap";
 import Token from "./components/Token";
 import RoadMap from "./components/RoadMap";
 import Map from "./components/Map";
+import Thank from "./components/Thank";
+import GetInTouch from "./components/GetInTouch";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -19,8 +22,11 @@ export default function Home() {
       <ReadyToJoin />
       <Swap />
       <Token />
-      <RoadMap/>
-      <Map/>
+      <RoadMap />
+      <Map />
+      <Thank />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }

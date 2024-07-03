@@ -27,6 +27,10 @@
   font-family: Cyborg;
   src: url("./assets/fonts/Cyborg\ Punk.ttf");
 }
+@font-face {
+  font-family: samsungsharpsans;
+  src: url("./assets/fonts/samsungsharpsans-bold.otf");
+}
 body {
   background: #001929;
   color: #fff;
@@ -46,6 +50,9 @@ body {
 }
 .poppins-light {
   font-family: poppinsLight;
+}
+.samsungsharpsans {
+  font-family: samsungsharpsans;
 }
 .nav-bg {
   background: linear-gradient(
@@ -115,10 +122,21 @@ body {
 }
 
 .swap {
-  background-image: url("../../public/img/swap.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden; /* Ensure that the pseudo-element does not overflow */
+}
+
+.swap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/img/stars.gif");
+  background-repeat: repeat;
+  opacity: 0.3; /* Adjust the opacity as needed */
+  z-index: -1; /* Place the pseudo-element behind the content */
 }
 
 .token {
@@ -149,4 +167,108 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+}
+
+.thank-bg-top {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0) -9%, #001929 20%);
+  height: 246px;
+}
+
+.thank {
+  background-image: url("../../public/img/thank-sec-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.get-in-touch-form {
+  background-image: url("../../public/img/getintouch-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 87.09px -36px #00f0ff80;
+}
+
+textarea {
+  resize: none;
+}
+
+.footer-top-bg {
+  background-image: url("../../public/img/footer-top-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.arthero {
+  background-image: url("../../public/img/artHero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.IMageCollection {
+  background-image: url("../../public/img/IMageCollection.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.stars-art {
+  position: relative;
+  overflow: hidden; /* Ensure that the pseudo-element does not overflow */
+}
+
+.stars-art::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/img/stars.gif");
+  background-repeat: repeat;
+  opacity: 0.4; /* Adjust the opacity as needed */
+  z-index: -1; /* Place the pseudo-element behind the content */
+}
+.ShareYourVisionBg {
+  position: relative;
+  overflow: hidden;
+}
+
+.ShareYourVisionBg::before,
+.ShareYourVisionBg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure they are behind the content */
+}
+
+.ShareYourVisionBg::before {
+  background-image: url("../../public/img/stars.gif");
+  background-repeat: repeat; /* Stars image repeats */
+  opacity: 0.5; /* Adjust the opacity as needed for stars */
+}
+
+.ShareYourVisionBg::after {
+  background-image: url("../../public/img/art-sec-3.png");
+  background-size: 100% 90%;
+  background-position: center;
+  background-repeat: no-repeat; /* Art image does not repeat */
+  opacity: 0.5; /* Higher opacity for art image */
+}
+
+.art-sect-4 {
+  background-image: url("../../public/img/art-sec-4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.chatbot-bg {
+  background-image: url("../../public/img/chatbotBG.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

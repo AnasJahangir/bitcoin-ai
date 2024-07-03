@@ -4,7 +4,7 @@ import React from "react";
 function Map() {
   return (
     <div className="swap relative">
-      <div className="px-10 pt-5  ">
+      <div className="px-2 pt-5  ">
         <div className="flex justify-between items-center">
           <div className="relative">
             <Image
@@ -50,18 +50,11 @@ function Map() {
             />
           </div>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center ">
           <div className="relative">
             <Image
-              src={"/img/dog.png"}
-              width={10000}
-              height={10000}
-              className="w-[316px] h-[368px]"
-              alt="roadmap"
-            />
-            <Image
-              src={"/img/GlIU.gif"}
-              className="absolute top-[-27%] left-[-47%] rotate-[-13deg]"
+              src={"/img/star.png"}
+              className=""
               height={130}
               width={130}
               alt="roadmap"
@@ -85,12 +78,51 @@ function Map() {
               </p>
             </div>
           </div>
+
           <div className="relative">
             <Image
-              src={"/img/star.png"}
-              className=""
+              src={"/img/map-men.png"}
+              width={10000}
+              height={10000}
+              className="w-[316px] h-[368px]"
+              alt="roadmap"
+            />
+            <Image
+              src={"/img/GlIU.gif"}
+              className="absolute top-[-17%] left-[-8%] rotate-[5deg]"
               height={130}
               width={130}
+              alt="roadmap"
+            />
+          </div>
+        </div>
+        <div className="flex  mt-20 relative ">
+          <div className="relative">
+            <Image
+              src={"/img/fog.png"}
+              className=""
+              height={450}
+              width={450}
+              alt="roadmap"
+            />
+          </div>
+          <div className="w-[500px]">
+            <p className="text-[30px] text-center">
+              Until <span className="text-[#00F0FF]">$BitcoinAI</span> Chatbot
+              and Humanoids are fully built, deployed, and in use by the public,
+              it remains primarily a cultural Symbol of{" "}
+              <span className="text-[#00F0FF]">Freedom and Empowerment</span>{" "}
+              For All; essentially, a meme with no intrinsic value or
+              expectation of financial return.
+            </p>
+          </div>
+
+          <div className="absolute bottom-[-20px] right-0">
+            <Image
+              src={"/img/group-map.png"}
+              width={10000}
+              height={10000}
+              className="w-[600px]"
               alt="roadmap"
             />
           </div>
