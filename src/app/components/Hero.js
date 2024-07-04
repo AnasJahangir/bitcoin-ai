@@ -34,7 +34,7 @@ function Hero() {
           </p>
           <p className="text-[32px] font-bold leading-[43px] mt-5">
             “GIVE ME YOUR TIRED, YOUR POOR, YOUR HUDDLED MASSES YEARNING TO BE
-            FREE... TO HODL $BitcoinAI."
+            FREE... TO HODL $BitcoinAI.&quot;
           </p>
           <div className="flex gap-14 items-center mt-10">
             <Image src={"/img/twitter.png"} height={68} width={68} alt="logo" />

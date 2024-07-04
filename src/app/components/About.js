@@ -7,10 +7,11 @@ function About() {
       <div className="text-center mt-28 relative z-10">
         <h1 className="text-[60px] font-extrabold BitcoinAI">$BitcoinAI</h1>
         <h2 className="text-[32px] font-semibold mt-10 text-[#00F0FF]">
-          What's the Deal with $BitcoinAI?
+          What&apos;s the Deal with $BitcoinAI?
         </h2>
         <p className="text-[32px] font-semibold mt-8 ">
-          Well, it's not just about a cool robot holding a lit torch. It's about
+          Well, it&apos;s not just about a cool robot holding a lit torch.
+          It&apos;s about
           <br />
           what this symbol represents.
         </p>
@@ -18,20 +19,21 @@ function About() {
           Imagine it standing tall, declaring to the world:
         </p>
         <p className="text-[32px] font-semibold mt-8 text-[#00F0FF]">
-          "Give Me Your Tired, Your Poor, Your Huddled Masses Yearning To Be
-          <br /> Free... to HODL $BitcoinAI."
+          &quot;Give Me Your Tired, Your Poor, Your Huddled Masses Yearning To
+          Be
+          <br /> Free... to HODL $BitcoinAI.&quot;
         </p>
         <p className="text-[32px] font-semibold mt-8 ">
           This proclamation tells us that by embracing{" "}
           <span className="text-[#00F0FF]">Bitcoin</span> and{" "}
-          <span className="text-[#00F0FF]">AI</span> AI, we're <br />
+          <span className="text-[#00F0FF]">AI</span> AI, we&apos;re <br />
           setting ourselves up for an empowered future.
         </p>
         <p className="text-[32px] font-semibold mt-8 ">
-          It's a beacon for Financial{" "}
+          It&apos;s a beacon for Financial{" "}
           <span className="text-[#00F0FF]">Freedom and Empowerment</span>,
-          showing <br /> everyone that the future of finance is here, and it's
-          for all of us.
+          showing <br /> everyone that the future of finance is here, and
+          it&apos;s for all of us.
         </p>
         <h1 className="text-[100px] leading-[104.7px] text-[#00F0FF] SF mt-36">
           About <br /> & <br /> Mission
@@ -76,8 +78,8 @@ function About() {
             </p>
             <p className="text-[32px] font-semibold mt-8 ">
               At the core of{" "}
-              <span className="text-[#00F0FF]">BitcoinAI's mission</span> is the
-              integration of real-time data analysis <br /> and market
+              <span className="text-[#00F0FF]">BitcoinAI&apos;s mission</span>{" "}
+              is the integration of real-time data analysis <br /> and market
               predictions, facilitated through the BitcoinAI Chatbot and its{" "}
               <br /> humanoid robot with a glowing Bitcoin logo emblazoned on
               its chest....
@@ -131,7 +133,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div class="background-overlay absolute bottom-0 w-[100%] h-[90%]">
+      <div className="background-overlay absolute bottom-0 w-[100%] h-[90%]">
         <div className="relative">
           <div className="hero-bg-top absolute  w-[100%] "></div>
         </div>
