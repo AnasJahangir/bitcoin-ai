@@ -4,6 +4,19 @@ import React from "react";
 function Hero() {
   return (
     <div className="hero min-h-[100vh] mt-10 relative flex justify-center">
+      <video
+        autoPlay
+        muted
+        loop
+        className="w-full h-full object-cover absolute top-0 left-0"
+        playsInline
+      >
+        <source
+          src="https://res.cloudinary.com/dpdk766tg/video/upload/f_auto:video,q_auto/v1/bitcoin-ai/v2sflmlntdcyxpsgdd9a"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
       <div className="hero-bg-top absolute  w-[100%] "></div>
       <div className="container flex  py-5 px-5">
         <div className="relative z-10 w-[50%]">

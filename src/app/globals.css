@@ -272,3 +272,15 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.HumanoidHerobg {
+  background-image: url("../../public/img/human-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.HumanoidSec2 {
+  background-image: url("../../public/img/human-sec2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

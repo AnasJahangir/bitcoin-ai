@@ -4,7 +4,7 @@ import React from "react";
 function RoadMap() {
   return (
     <div className="Road-Map min-h-[100vh] relative">
-      {/* <video
+      <video
         autoPlay
         muted
         loop
@@ -16,7 +16,7 @@ function RoadMap() {
           type="video/mp4"
         />
         Your browser does not support the video tag.
-      </video> */}
+      </video>
 
       <div className="how-bg-top absolute w-[100%]"></div>
       <div className="flex flex-col justify-center items-center relative z-10 mt-20">

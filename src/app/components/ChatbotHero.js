@@ -13,7 +13,7 @@ function ChatbotHero() {
         assistance.
       </p>
       <div className="min-h-[120vh] chatbot-bg mt-10">
-
+        
       </div>
     </div>
   );
